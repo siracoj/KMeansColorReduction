@@ -1,0 +1,40 @@
+﻿Build started 4/22/2014 9:07:30 AM.
+     1>Project "C:\Users\Jared\Dropbox\Parallel Processing\KMeansColorReduction\ColorReduction\ColorReduction\ColorReduction.vcxproj" on node 2 (Build target(s)).
+     1>AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /D_DEBUG /D_CONSOLE /D_UNICODE /DUNICODE /IC:\opencv\build\\include\opencv /IC:\opencv\build\\include /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" /I. /FIcuda_runtime.h /c "C:\Users\Jared\Dropbox\Parallel Processing\KMeansColorReduction\ColorReduction\ColorReduction\kmeans.cu" 
+       CudaBuild:
+         Compiling CUDA source file kmeans.cu...
+         cmd.exe /C "C:\Users\Jared\AppData\Local\Temp\tmpaf59a58cba59435dbc22a1870e4399a6.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" --use-local-env --cl-version 2012 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin"  -IC:\opencv\build\\include\opencv -IC:\opencv\build\\include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /Zi  /MDd  " -o Debug\kmeans.cu.obj "C:\Users\Jared\Dropbox\Parallel Processing\KMeansColorReduction\ColorReduction\ColorReduction\kmeans.cu"
+         
+         C:\Users\Jared\Dropbox\Parallel Processing\KMeansColorReduction\ColorReduction\ColorReduction>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" --use-local-env --cl-version 2012 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin"  -IC:\opencv\build\\include\opencv -IC:\opencv\build\\include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /Zi  /MDd  " -o Debug\kmeans.cu.obj "C:\Users\Jared\Dropbox\Parallel Processing\KMeansColorReduction\ColorReduction\ColorReduction\kmeans.cu" 
+     1>C:\opencv\build\include\opencv2/core/types_c.h(320): warning : variable "t" is used before its value is set
+     1>C:\opencv\build\include\opencv2/ml/ml.hpp(955): warning : overloaded virtual function "CvDTree::train" is only partially overridden in class "CvForestTree"
+     1>C:\opencv\build\include\opencv2/ml/ml.hpp(1143): warning : overloaded virtual function "CvDTree::train" is only partially overridden in class "CvBoostTree"
+     1>C:/Users/Jared/Dropbox/Parallel Processing/KMeansColorReduction/ColorReduction/ColorReduction/kmeans.cu(79): warning : expression has no effect
+     1>C:/Users/Jared/Dropbox/Parallel Processing/KMeansColorReduction/ColorReduction/ColorReduction/kmeans.cu(79): warning : expression has no effect
+     1>C:/Users/Jared/Dropbox/Parallel Processing/KMeansColorReduction/ColorReduction/ColorReduction/kmeans.cu(79): warning : expression has no effect
+     1>C:/Users/Jared/Dropbox/Parallel Processing/KMeansColorReduction/ColorReduction/ColorReduction/kmeans.cu(79): warning : expression has no effect
+     1>C:/Users/Jared/Dropbox/Parallel Processing/KMeansColorReduction/ColorReduction/ColorReduction/kmeans.cu(79): warning : expression has no effect
+     1>C:/Users/Jared/Dropbox/Parallel Processing/KMeansColorReduction/ColorReduction/ColorReduction/kmeans.cu(79): warning : expression has no effect
+     1>C:/Users/Jared/Dropbox/Parallel Processing/KMeansColorReduction/ColorReduction/ColorReduction/kmeans.cu(79): warning : expression has no effect
+     1>C:/Users/Jared/Dropbox/Parallel Processing/KMeansColorReduction/ColorReduction/ColorReduction/kmeans.cu(79): warning : expression has no effect
+     1>C:/Users/Jared/Dropbox/Parallel Processing/KMeansColorReduction/ColorReduction/ColorReduction/kmeans.cu(79): warning : expression has no effect
+     1>C:/Users/Jared/Dropbox/Parallel Processing/KMeansColorReduction/ColorReduction/ColorReduction/kmeans.cu(79): warning : expression has no effect
+     1>C:/Users/Jared/Dropbox/Parallel Processing/KMeansColorReduction/ColorReduction/ColorReduction/kmeans.cu(79): warning : expression has no effect
+     1>C:/Users/Jared/Dropbox/Parallel Processing/KMeansColorReduction/ColorReduction/ColorReduction/kmeans.cu(79): warning : expression has no effect
+     1>C:/Users/Jared/Dropbox/Parallel Processing/KMeansColorReduction/ColorReduction/ColorReduction/kmeans.cu(79): warning : expression has no effect
+     1>C:/Users/Jared/Dropbox/Parallel Processing/KMeansColorReduction/ColorReduction/ColorReduction/kmeans.cu(79): warning : expression has no effect
+     1>C:/Users/Jared/Dropbox/Parallel Processing/KMeansColorReduction/ColorReduction/ColorReduction/kmeans.cu(79): warning : expression has no effect
+     1>C:/Users/Jared/Dropbox/Parallel Processing/KMeansColorReduction/ColorReduction/ColorReduction/kmeans.cu(79): warning : expression has no effect
+     1>C:/Users/Jared/Dropbox/Parallel Processing/KMeansColorReduction/ColorReduction/ColorReduction/kmeans.cu(101): error : expression preceding parentheses of apparent call must have (pointer-to-) function type
+     1>C:/Users/Jared/Dropbox/Parallel Processing/KMeansColorReduction/ColorReduction/ColorReduction/kmeans.cu(101): error : identifier "rows" is undefined
+     1>C:/Users/Jared/Dropbox/Parallel Processing/KMeansColorReduction/ColorReduction/ColorReduction/kmeans.cu(101): error : identifier "cols" is undefined
+     1>C:/Users/Jared/Dropbox/Parallel Processing/KMeansColorReduction/ColorReduction/ColorReduction/kmeans.cu(105): error : no suitable constructor exists to convert from "uchar *" to "cv::gpu::PtrStepSz<uchar3>"
+     1>C:/Users/Jared/Dropbox/Parallel Processing/KMeansColorReduction/ColorReduction/ColorReduction/kmeans.cu(116): error : no suitable constructor exists to convert from "uchar *" to "cv::gpu::PtrStep<uchar3>"
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\BuildCustomizations\CUDA 5.5.targets(592,9): error MSB3721: The command ""C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" --use-local-env --cl-version 2012 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin"  -IC:\opencv\build\\include\opencv -IC:\opencv\build\\include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /Zi  /MDd  " -o Debug\kmeans.cu.obj "C:\Users\Jared\Dropbox\Parallel Processing\KMeansColorReduction\ColorReduction\ColorReduction\kmeans.cu"" exited with code 2.
+     1>Done Building Project "C:\Users\Jared\Dropbox\Parallel Processing\KMeansColorReduction\ColorReduction\ColorReduction\ColorReduction.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.54
